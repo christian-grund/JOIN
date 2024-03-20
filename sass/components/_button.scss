@@ -30,26 +30,26 @@ input[type='checkbox'] {
 input[type='checkbox'] + label {
   display: inline-block;
   padding: 0 0 0 0px;
-  background: url('../../assets/img/icons/checkInput.svg') no-repeat;
+  background: url('././assets/img/icons/checkInput.svg') no-repeat;
   height: 20px;
   width: 16px;
   background-size: 100%;
 }
 
 input[type='checkbox']:checked + label {
-  background: url('../../assets/img/icons/checkedInput.svg') no-repeat;
+  background: url('././assets/img/icons/checkedInput.svg') no-repeat;
   height: 20px;
   width: 16px;
   display: inline-block;
   background-size: 100%;
 }
 
-input:focus{
+input:focus {
   border-color: $secondary-color !important;
   outline: none;
 }
 
-.inputFokusError:focus{
+.inputFokusError:focus {
   border-color: $error-red !important;
   outline: none;
 }
@@ -67,7 +67,6 @@ input:focus{
   gap: 10px;
   padding: 15px 16px;
 }
-
 
 .buttonGrey {
   display: flex;
@@ -288,7 +287,7 @@ button:disabled {
   height: 24px;
 } */
 
-.boardAddTaskButtonMobile{
+.boardAddTaskButtonMobile {
   padding: 24px 15px;
   font-size: 21px;
   font-style: normal;
@@ -296,7 +295,7 @@ button:disabled {
   line-height: 120%;
 }
 
-.buttonMenuMoveTaskMobile{
+.buttonMenuMoveTaskMobile {
   display: flex;
   text-align: center;
   align-items: center;
@@ -310,7 +309,7 @@ button:disabled {
   border-radius: 8px;
 }
 
-.buttonMenuMoveTaskMobile:hover{
+.buttonMenuMoveTaskMobile:hover {
   transition: 250ms;
   background-color: rgb(14, 140, 233);
   transform: scale(1.001);

@@ -223,7 +223,7 @@ function generateTaskPopupHTML(i, img, date) {
               <div id="dropdownCategory" class="dropdownEdit" onclick="openDropDownCategoryEdit()">
                 <div id="showSelectedCategoryEdit" data-value="">Select task category
                 </div>
-                <img id="dropdownImgArrowCategoryEdit" class="rotate-arrow dropdown-arrow-hover" src="../assets/img/AddTask/arrow_drop.svg" alt="">
+                <img id="dropdownImgArrowCategoryEdit" class="rotate-arrow dropdown-arrow-hover" src="./assets/img/AddTask/arrow_drop.svg" alt="">
               </div>
               <div id="assignedDropdownCategoryEdit" class="category-dropdown d-none">
                 <div id="userStoryEdit" class="flex-checkbox" data-value="user-story" onclick="selectCategoryEdit('User Story', 'myDateInputEdit')">User Story
@@ -341,7 +341,7 @@ function addTaskPopUpHtml(column) {
           <p>Category<span class="span-required">*</span></p>
           <div id="dropdownCategory" class="dropdown" onclick="openDropDownCategory()">
             <div id="showSelectedCategory" data-value="">Select task category</div>
-            <img id="dropdownImgArrowCategory" class="rotate-arrow dropdown-arrow-hover" src="../assets/img/AddTask/arrow_drop.svg" alt="">
+            <img id="dropdownImgArrowCategory" class="rotate-arrow dropdown-arrow-hover" src="./assets/img/AddTask/arrow_drop.svg" alt="">
           </div>
           <div id="assignedDropdownCategory" class="category-dropdown d-none">
             <div id="userStory" class="flex-checkbox" data-value="user-story" onclick="selectCategory('User Story', 'myDateInputPopup')">User Story</div>
@@ -460,7 +460,7 @@ function showTaskFormEditHtml() {
     <div name="assigned">
       <div id="dropdownEdit" class="dropdown" onclick="openDropDown('assignedDropdown', 'dropdownImgArrow')">
         <input class="contact-searchbar" onkeyup="filterAddTaskContact()" type="text" id="search" placeholder="Select contacts to assign" />
-        <img id="dropdownImgArrow" class="rotate-arrow dropdown-arrow-hover dropdown-arrow-hover" src="../assets/img/AddTask/arrow_drop.svg" alt="">
+        <img id="dropdownImgArrow" class="rotate-arrow dropdown-arrow-hover dropdown-arrow-hover" src="./assets/img/AddTask/arrow_drop.svg" alt="">
       </div>
     </div>
     <div id="assignedDropdown" class="d-none">

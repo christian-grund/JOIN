@@ -5,9 +5,8 @@
  */
 function hoverTodo(element) {
   let img = document.getElementById(element);
-  img.setAttribute('src', '../assets/img/Summary/pencilWhiteDesktop.svg');
+  img.setAttribute('src', './assets/img/Summary/pencilWhiteDesktop.svg');
 }
-
 
 /**
  * Changes the image source to display a black pencil icon when not hovering over a to-do element.
@@ -16,9 +15,8 @@ function hoverTodo(element) {
  */
 function unhoverTodo(element) {
   let img = document.getElementById(element);
-  img.setAttribute('src', '../assets/img/Summary/pencilBlackDesktop.svg');
+  img.setAttribute('src', './assets/img/Summary/pencilBlackDesktop.svg');
 }
-
 
 /**
  * Changes the image source to display a white checkmark icon when hovering over a done element.
@@ -27,9 +25,8 @@ function unhoverTodo(element) {
  */
 function hoverDone(element) {
   let img = document.getElementById(element);
-  img.setAttribute('src', '../assets/img/Summary/hookButtonWhiteDesktop.svg');
+  img.setAttribute('src', './assets/img/Summary/hookButtonWhiteDesktop.svg');
 }
-
 
 /**
  * Changes the image source to display a black checkmark icon when not hovering over a done element.
@@ -38,9 +35,8 @@ function hoverDone(element) {
  */
 function unhoverDone(element) {
   let img = document.getElementById(element);
-  img.setAttribute('src', '../assets/img/Summary/hookButtonBlackDesktop.svg');
+  img.setAttribute('src', './assets/img/Summary/hookButtonBlackDesktop.svg');
 }
-
 
 /**
  * Generates HTML content for the summary section of the webpage.
@@ -62,9 +58,9 @@ function summaryHtml() {
           <div class="sum-row-container">
             <div class="sum-col-12 summary-flex">
               <div class="sum-col-6">
-                <a href="/board.html">
+                <a href="./board.html">
                   <div class="summary-todo summary-gap-default" onmouseover="hoverTodo('todoImg');" onmouseout="unhoverTodo('todoImg');">
-                  <img class="boardImg" src="../assets/img/Summary/pencilBlackDesktop.svg" alt="" id="todoImg"  />
+                  <img class="boardImg" src="./assets/img/Summary/pencilBlackDesktop.svg" alt="" id="todoImg"  />
                   <div class="summary-flex-column">
                     <div class="summary-todo-counter">${todoTasks}</div>
                     <div
@@ -76,9 +72,9 @@ function summaryHtml() {
               </a>
               </div>
               <div class="sum-col-6">
-                <a href="/board.html">
+                <a href="./board.html">
                 <div class="summary-todo summary-gap-default" onmouseover="hoverDone('doneImg');" onmouseout="unhoverDone('doneImg');">
-                  <img class="boardImg" src="../assets/img/Summary/hookButtonBlackDesktop.svg" alt="" id="doneImg"/>
+                  <img class="boardImg" src="./assets/img/Summary/hookButtonBlackDesktop.svg" alt="" id="doneImg"/>
                   <div class="summary-flex-column">
                     <div class="summary-todo-counter">${doneTasks}</div>
                     <div
@@ -93,7 +89,7 @@ function summaryHtml() {
           </div>
           <div class="sum-row-container">
         <div class="sum-col-12">
-          <a href="/board.html">
+          <a href="./board.html">
               <div class="summary-summarySmallContainerMiddle summary-gap-urgent">
                 <div class="sum-col-6">
                   <div class="summary-urgent-wrapper">
@@ -120,7 +116,7 @@ function summaryHtml() {
             <div class="sum-row-container">
               <div class="sum-col-12 summary-flex-counter">
                 <div class="sum-col-4">
-                  <a href="/board.html">
+                  <a href="./board.html">
                   <div class="summary-tasksContainerDown summary-gap-default">
                     <div class="summary-flex-column">
                       <div class="summary-tasksContainerDown-counter">${tasksInBoard}</div>
@@ -134,7 +130,7 @@ function summaryHtml() {
                 </a>
                 </div>
                 <div class="sum-col-4">
-                  <a href="/board.html">
+                  <a href="./board.html">
                   <div class="summary-tasksContainerDown summary-gap-default">
                     <div class="summary-flex-column">
                       <div class="summary-tasksContainerDown-counter">${progressTasks}</div>
@@ -147,7 +143,7 @@ function summaryHtml() {
                   </a>
                 </div>
                 <div class="sum-col-4 summarySmallContainerDown">
-                  <a href="/board.html">
+                  <a href="./board.html">
                   <div class="summary-tasksContainerDown summary-gap-default">
                     <div class="summary-flex-column">
                       <div class="summary-tasksContainerDown-counter">${awaitFeedbackTasks}</div>

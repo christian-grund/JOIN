@@ -52,7 +52,7 @@ function addTaskHtml() {
             <p>Category<span class="span-required">*</span></p>
             <div id="dropdownCategory" class="dropdown" onclick="openDropDownCategory()" >
               <div id="showSelectedCategory" data-value="">Select task category</div>
-              <img id="dropdownImgArrowCategory" class="rotate-arrow dropdown-arrow-hover" src="../assets/img/AddTask/arrow_drop.svg" alt="">
+              <img id="dropdownImgArrowCategory" class="rotate-arrow dropdown-arrow-hover" src="./assets/img/AddTask/arrow_drop.svg" alt="">
             </div>
             <div id="assignedDropdownCategory" class="category-dropdown d-none">
               <div id="userStory" class="flex-checkbox" data-value="user-story" onclick="selectCategory('User Story', 'myDateInput')">User Story</div>
@@ -208,7 +208,7 @@ function showTaskFormHtml() {
     <div name="assigned">
       <div id="dropdown" class="dropdown" onclick="openDropDown('assignedDropdown', 'dropdownImgArrow')">
         <input class="contact-searchbar" onkeyup="filterAddTaskContact()" type="text" id="search" placeholder="Select contacts to assign" />
-        <img id="dropdownImgArrow" class="rotate-arrow dropdown-arrow-hover dropdown-arrow-hover" src="../assets/img/AddTask/arrow_drop.svg" alt="">
+        <img id="dropdownImgArrow" class="rotate-arrow dropdown-arrow-hover dropdown-arrow-hover" src="./assets/img/AddTask/arrow_drop.svg" alt="">
       </div>
     </div>
     <div id="assignedDropdown" class="d-none">
